@@ -18,7 +18,10 @@
 }
 
 /* Second section */
-
+.section-2{
+    display: flex;
+    height: 400px;
+}
 .section2-link-button{
     
     text-align: center;
@@ -35,4 +38,21 @@
 }
 .section-2-article{
     width: 500px;
+}
+.section-2-img{
+    
+    position: absolute;
+    right:100px;
+    height: 400px;
+    width: 400px;
+}
+
+/* Section-3 Logos and hr line */
+
+.hr-line{
+    color: rosybrown;
+}
+.logo{
+    display: inline;
+    margin-right: 100px;
 }
