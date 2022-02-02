@@ -56,3 +56,21 @@
     display: inline;
     margin-right: 100px;
 }
+
+
+/* Section-4 Popular item for grid view */
+
+.grid-property{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    
+}
+.product-block{
+    margin: 10px;
+    padding: 10px;
+    background-color: wheat;
+    height: 425px;
+    width: 300px;
+    border-radius: 10px;
+    box-shadow: 5px 5px 5px 5px rgba(88, 88, 88, 0.548);
+}
