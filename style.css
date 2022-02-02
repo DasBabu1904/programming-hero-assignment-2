@@ -1,0 +1,17 @@
+/* First Line Menu+headin style */
+.First-line{
+    display: flex;
+}
+.First-line-header{
+    font-size: 20px;
+}
+.First-line-menu{
+    position: absolute;
+    right: 70px;
+    top:40px;
+    
+}
+.first-menu-element{
+    display: inline;
+    margin-right: 10px;
+}
