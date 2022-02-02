@@ -14,4 +14,25 @@
 .first-menu-element{
     display: inline;
     margin-right: 10px;
+    font-size: 20px;
+}
+
+/* Second section */
+
+.section2-link-button{
+    
+    text-align: center;
+    height: 25px;
+    width: 150px;
+    background-color: rgb(250, 1, 154);
+    border-radius: 20px;
+    padding: 10px;
+}
+.section2-link-text{
+    color: white;
+    text-decoration: none;
+    font-weight: 800;
+}
+.section-2-article{
+    width: 500px;
 }
