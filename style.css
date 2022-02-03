@@ -2,9 +2,9 @@
 .First-line{
     display: flex;
     margin-bottom: 100px;
+    margin-left: 100px;
 }
 .First-line-header{
-    margin-left: 100px;
     font-size: 25px;
 }
 .First-line-menu{
@@ -21,8 +21,9 @@
 
 /* Second section */
 .section-2{
+    margin-left: 100px;
     display: flex;
-    height: 400px;
+    margin-bottom: 100px;
 }
 .section2-link-button{
     
@@ -39,8 +40,8 @@
     font-weight: 800;
 }
 .section-2-article{
-    margin-left: 100px;
-    width: 500px;
+    
+    width: 50%;
 }
 .section-2-article-head{
     font-size: 30px;
@@ -50,25 +51,23 @@
 }
 .section-2-img{
     margin-left: 100px;
-    position: absolute;
     height: 350px;
     width: 400px;
 }
 
 /* Section-3 Logos and hr line */
-
+.hr-logo-section{
+    margin-left: 120px;
+}
 .hr-line{
-    margin-left: 100px;
     margin-right: 100px;
     color: rgba(188, 143, 143, 0.61);
 }
 .logos{
-    
-    margin-left: 150px;
+    display: flex;
     margin-right: 100px;
 }
 .logo{
-    display: inline;
     margin-right: 100px;
 }
 
@@ -101,8 +100,7 @@
     width: 200px;
 }
 .section-5-blog{
-    margin-left: 100px;
-    width: 600px;
+    width: 50%;
 }
 .section-5-flex{
     margin-top: 100px;
@@ -137,4 +135,63 @@
 .contact-style{
     size:2em;
     margin-right: 5px
+}
+
+
+/*-----------------------------------------------
+                  midia queary 
+-------------------------------------------------*/
+
+@media only screen and (max-width: 768px){
+    .First-line{
+        margin-right: 10px;
+        margin-left: 20px;
+        flex-direction:column;
+    }
+    .section-2{
+        margin-right: 10px;
+        margin-left: 20px;
+        flex-direction: column;
+    }
+    .section-2-article{
+    
+        width:100%;
+    }
+    .section-2-img{
+        margin-right: 10px;
+        margin-left: 10px;
+    }
+    .hr-logo-section{
+        margin-right: 10px;
+        margin-left: 20px;
+    }
+    .logos{
+        margin-right: 10px;
+        margin-right: 20px;
+        display: grid;
+        grid-template-columns: repeat(2,1fr);
+    }
+    .logo{
+        margin-top: 10px;
+    }
+    .grid-property{
+        margin-right: 10px;
+        margin-left: 20px;
+        display: flex;
+        flex-direction: column;
+    }
+    .section-5-flex{
+        margin-right: 10px;
+        margin-left: 20px;
+        flex-direction: column;
+    }
+    .section-5-blog{
+        width: 100%;
+    }
+}
+@media only screen and (min-width: 768px max-width:1023){
+
+}
+@media only screen and (min-width: 1024px){
+
 }
